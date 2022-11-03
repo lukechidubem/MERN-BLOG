@@ -1,0 +1,36 @@
+.blogPreview {
+  padding: 10px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+
+.blogPreview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blogPreview .headTitle {
+  /* background-color: rgb(199, 174, 174); */
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #f1356d;
+}
+
+.blogPreview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+
+.blogPreview a {
+  text-decoration: none;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}

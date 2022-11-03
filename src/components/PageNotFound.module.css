@@ -1,0 +1,20 @@
+.notFound {
+  text-align: center;
+  line-height: 45px;
+  margin-top: 200px;
+}
+
+.notFound h2 {
+  font-size: 3rem;
+}
+
+.notFound p {
+  font-size: 1.2rem;
+  font-size: 20px;
+}
+
+.notFound a {
+  text-decoration: none;
+  color: rgb(242, 15, 15);
+  font-weight: 500;
+}

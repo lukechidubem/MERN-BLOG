@@ -1,0 +1,41 @@
+.grey {
+  color: #918e9b;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.card {
+  width: 380px;
+  margin: 30px 20px;
+  border-bottom: 0.5px solid black;
+
+  /* font-size: 16px; */
+}
+
+.card h3 {
+  color: blue;
+}
+
+.title {
+  font-size: 20px;
+  height: 40px;
+  border-radius: 10px;
+  color: aquamarine;
+  align-items: center;
+}
+
+.cardstats {
+  display: flex;
+  align-items: center;
+}
+
+.cardImg {
+  width: 100%;
+}
+
+.cardposition {
+  display: flex;
+  justify-content: space-around;
+}

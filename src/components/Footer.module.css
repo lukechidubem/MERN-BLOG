@@ -1,0 +1,152 @@
+/* Contact form */
+
+.footerContainer .contact {
+  text-align: center;
+  text-align: center;
+  background: #f1356d;
+  display: inline;
+  padding: 10px;
+  font-size: 25px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  margin-left: 45%;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  background: #f1356d;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+
+.formContainer form {
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.formContainer label {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+.formContainer input {
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.formContainer textarea {
+  width: 400px;
+  height: 150px;
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.formContainer button {
+  background: #e8e6e6;
+  color: rgb(28, 24, 24);
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+footer div {
+  background-color: rgba(234, 227, 227, 0.2);
+  padding: 30px;
+}
+footer div a {
+  color: blue;
+  padding: 30px 0 30px 0;
+  text-decoration: none;
+}
+
+@media (max-width: 950px) {
+  .footerContainer .contact {
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .formContainer form {
+    width: 70%;
+
+    margin-bottom: 15px;
+  }
+
+  .formContainer label {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .formContainer input {
+    width: 250px;
+    padding: 10px;
+  }
+
+  .formContainer textarea {
+    width: 250px;
+    height: 120px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .formContainer button {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .footerContainer .contact {
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .formContainer form {
+    margin-bottom: 10px;
+  }
+
+  .formContainer label {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .formContainer input {
+    width: 150px;
+    padding: 7px;
+    height: 20px;
+  }
+
+  .formContainer textarea {
+    width: 150px;
+    height: 110px;
+    margin-bottom: 20px;
+    padding: 7px;
+  }
+
+  .formContainer button {
+    background: #e8e6e6;
+    color: rgb(28, 24, 24);
+    font-size: 15px;
+    padding: 10px;
+  }
+}
