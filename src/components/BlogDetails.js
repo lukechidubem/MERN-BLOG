@@ -13,12 +13,12 @@ const BlogDetails = () => {
     data: blog,
     error,
     isPending,
-  } = useFetch("http://localhost:8000/blog/" + id);
+  } = useFetch("https://lfcblog.onrender.com/blog/" + id);
 
   const history = useNavigate();
 
   const HandleChange = () => {
-    const del = fetch("http://localhost:8000/blog/" + blog._id, {
+    const del = fetch("https://lfcblog.onrender.com/blog/" + blog._id, {
       method: "DELETE",
     }).then((err) => {
       console.log(err);
@@ -27,7 +27,7 @@ const BlogDetails = () => {
   };
 
   const HandleEdit = () => {
-    fetch("http://localhost:8000/blog/" + blog._id, {
+    fetch("https://lfcblog.onrender.com/blog/" + blog._id, {
       method: "PUT",
     }).then(() => {
       history("/home");
@@ -40,7 +40,7 @@ const BlogDetails = () => {
 
   async function getUser() {
     try {
-      const res = await fetch("http://localhost:8000/profile", {
+      const res = await fetch("https://lfcblog.onrender.com/profile", {
         headers: {
           authorization: localStorage.getItem("token"),
         },
@@ -66,7 +66,7 @@ const BlogDetails = () => {
             <h2>{blog.title}</h2>
             <p>Written by {blog.author}</p>
             <img
-              src={"http://localhost:8000/" + blog.image.data}
+              src={"https://lfcblog.onrender.com/" + blog.image.data}
               width="200px"
             />
             {/* <img src="/macbook-pro-13_bg.jpg" width="200px" /> */}

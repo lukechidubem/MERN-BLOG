@@ -10,7 +10,7 @@ const BlogList = ({ blogs, title, handleDelete }) => {
         {blogs.data.map((blog) => {
           return (
             <Card
-              pic={"http://localhost:8000/" + blog.image.data}
+              pic={"https://lfcblog.onrender.com/" + blog.image.data}
               title={blog.title}
               author={blog.author}
               id={blog._id}

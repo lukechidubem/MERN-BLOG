@@ -66,7 +66,7 @@ const Register = () => {
       return;
     }
     try {
-      const response = await fetch("http://localhost:8000/signup", {
+      const response = await fetch("https://lfcblog.onrender.com/signup", {
         method: "POST",
 
         body: JSON.stringify({ username: user, password: pwd }),

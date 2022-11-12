@@ -12,7 +12,7 @@ function ProfilePage() {
 
   async function getUser() {
     try {
-      const res = await fetch("http://localhost:8000/profile", {
+      const res = await fetch("https://lfcblog.onrender.com/profile", {
         headers: {
           authorization: localStorage.getItem("token"),
         },

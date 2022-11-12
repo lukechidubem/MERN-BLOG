@@ -43,7 +43,7 @@ function Login() {
       //   LOGIN_URL,
       //   JSON.stringify({ user, pwd }),
 
-      const response = await fetch("http://localhost:8000/login", {
+      const response = await fetch("https://lfcblog.onrender.com/login", {
         method: "POST",
 
         body: JSON.stringify({ username: user, password: pwd }),

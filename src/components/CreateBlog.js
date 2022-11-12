@@ -26,7 +26,7 @@ const CreateBlog = () => {
     setIsPending(true);
 
     axios
-      .post("http://localhost:8000/blog", formdata, {
+      .post("https://lfcblog.onrender.com/blog", formdata, {
         headers: { "Content-Type": "multipart/form-data" },
       })
       .then((res) => {
