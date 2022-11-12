@@ -5,7 +5,7 @@
 
 .heroContainer {
   height: 70vh;
-  background-image: url("https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0002/08/237e381a34540b267bacbd6e177eb40435b1a583.jpeg");
+  /* background-image: url("https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0002/08/237e381a34540b267bacbd6e177eb40435b1a583.jpeg"); */
   background-position: center;
   background-size: cover;
   display: flex;
