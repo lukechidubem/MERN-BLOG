@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require("path");
+console.log(__dirname, path.join(__dirname, "build"));
 
 const app = express(),
   port = process.env.PORT || 3002;
